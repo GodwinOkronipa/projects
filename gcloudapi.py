@@ -48,13 +48,14 @@ def simple_gcp_api(service_name, version, api_method, **kwargs):
         return {"error": str(e)}
 
 
+
 # --- Example: List Google Cloud Functions in a Project ---
 if __name__ == "__main__":
     # Set up logging for better observability
     logging.basicConfig(level=logging.INFO)
     # Example usage: List all Cloud Functions in a project and region
-    project_id = "your-gcp-project-id"  # TODO: Replace with your project ID
-    region = "us-central1"  # TODO: Replace with your region
+    project_id = "your-gcp-project-id"  
+    region = "us-central1"  # Example region
     try:
         functions = simple_gcp_api(
             service_name="cloudfunctions",
