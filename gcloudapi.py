@@ -1,7 +1,7 @@
 def simple_gcp_api(service_name, version, api_method, **kwargs):
 
 # --- Google Cloud API Utility ---
-# This script demonstrates advanced usage of Google Cloud authentication and API invocation.
+# This script demonstrates advance use of Google Cloud authentication and API invocation.
 # It is designed to be modular, reusable, and production-ready for cloud functions or automation scripts.
 
 import google.auth
