@@ -27,7 +27,7 @@ contract SimpleStorage {
         emit NameChanged(oldName, newName);
     }
     
-    // This is our custom modifier for access control.
+    // This is our custom modifier for access control.securing the contract
     modifier onlyOwner() {
         require(msg.sender == owner, "Only the owner can call this function.");
         _;
