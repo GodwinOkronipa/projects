@@ -9,7 +9,11 @@ cool stuff im building in the cloud and AI space. Ive set a goal for myself to b
 
 ## shoutout to future me
 
-if you're reading this and you're cracked now, good job. if not, keep going. we’re building something wild here.
+if you're reading this and you're cracked now, good job. if not, keep going. we’re building something.
 ; )
 
-Project 1. Basic Google cloud API with error handling and logging
+**1. gcloudapi.py** – Basic Google Cloud API with error handling and logging. basically making stuff talk to Google withut crashing.
+   
+**2. pythonDb.p**y – Simple database stuff in Python. Playing with data, storing, fetching, and keeping it all smooth.
+   
+**3. simpleBlockchain.py** – this is funny because i actually want to create my own cryptocurrency and beccome a billionaire like satoshi, im not there yet but it works and that’s what matters.
