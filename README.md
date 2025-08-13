@@ -17,3 +17,5 @@ if you're reading this and you're cracked now, good job. if not, keep going. we�
 **2. pythonDb.p**y – Simple database stuff in Python. Playing with data, storing, fetching, and keeping it all smooth.
    
 **3. simpleBlockchain.py** – this is funny because i actually want to create my own cryptocurrency and beccome a billionaire like satoshi, im not there yet but it works and that’s what matters.
+
+**4. basic smart contract** - code that does not execute until certain conditions are met. built on top of blockchains to make data non fungble, and unfukwitable
