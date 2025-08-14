@@ -3,11 +3,11 @@ name: Java Build
 on:
   push:
     paths:
-      - 'musicPlayer.java'
+      - 'java/musicPlayer.java'
       - '.github/workflows/**'
   pull_request:
     paths:
-      - 'musicPlayer.java'
+      - 'java/musicPlayer.java'
       - '.github/workflows/**'
 
 jobs:
@@ -28,8 +28,8 @@ jobs:
         distribution: 'temurin'
 
     - name: Compile musicPlayer.java
-      run: javac -cp .:jl1.0.1.jar musicPlayer.java
+      run: javac -cp .:jl1.0.1.jar java/musicPlayer.java
 
     - name: (Optional) Run music player
-      run: java -cp .:jl1.0.1.jar SimpleMusicPlayer
+      run: java -cp .:jl1.0.1.jar:java SimpleMusicPlayer
       continue-on-error: true
