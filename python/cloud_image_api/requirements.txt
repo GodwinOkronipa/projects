@@ -1,0 +1,3 @@
+fastapi
+google-cloud-vision
+uvicorn
