@@ -1,0 +1,32 @@
+name: Java Build
+
+on:
+  push:
+    paths:
+      - 'musicPlayer.java'
+      - '.github/workflows/**'
+  pull_request:
+    paths:
+      - 'musicPlayer.java'
+      - '.github/workflows/**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+
+    - name: Compile musicPlayer.java
+      run: javac musicPlayer.java
+
+    - name: Run musicPlayer (optional)
+      run: java musicPlayer
+      continue-on-error: true # In case your program expects input or needs extra setup
