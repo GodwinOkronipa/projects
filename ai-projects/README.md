@@ -1,6 +1,6 @@
 # AI Projects
 
-Thisis where I keep my AI-related experiments, demos, and learning projects. Expecting to work with  machine learning, deep learning,etc anything that helps me learn or showcase what AI can do.
+This is where I keep my AI-related experiments, demos, and learning projects. Expecting to work with  machine learning, deep learning,etc anything that helps me learn or showcase what AI can do.
 
 ## What You'll Find Here
 - Python scripts and notebooks for AI/ML

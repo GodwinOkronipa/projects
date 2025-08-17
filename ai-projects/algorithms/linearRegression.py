@@ -44,7 +44,7 @@ for i in range(iterations):
     m = m - learning_rate * D_m
     b = b - learning_rate * D_b
 
-    # Optional: Print the progress every 100 iterations to see the values change
+    #Print the progress every 100 iterations to see the values change
     if i % 100 == 0:
         print(f"Iteration {i}: m = {m:.4f}, b = {b:.4f}, loss = {np.mean((y - y_predicted)**2):.4f}")
 
@@ -52,7 +52,7 @@ for i in range(iterations):
 print("\nTraining complete!")
 print(f"Final parameters: m = {m:.4f}, b = {b:.4f}")
 
-# --- NEW VISUALIZATION CODE ---
+# ---VISUALIZATION ---
 
 # 1. Create a scatter plot of the actual data points
 plt.scatter(X, y, color='blue', label='Actual Data Points')
