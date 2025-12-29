@@ -1,5 +1,5 @@
 # projects
-cool stuff im building in the cloud and AI space. Ive set a goal for myself to become a super cracked cloud infra, ml and AI eng by EOY 2025. This repo helps me track my progress from basic cloud functions to ml algos and entiire AI projects that can run locally. 
+cool stuff im building in the ML and AI space. This repo helps me track my progress from basic cloud functions to ml algos and entire AI projects that can run locally. 
 
 ## how i work
 
