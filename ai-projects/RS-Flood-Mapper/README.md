@@ -20,7 +20,7 @@ This project is intended as an educational tool to demonstrate a full remote sen
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/GodwinOkronipa/rs-flood-mapper.git]
+   git clone [https://github.com/GodwinOkronipa/projects/ai-projects/rs-flood-mapper.git]
    cd rs-flood-mapper
    ```
 
