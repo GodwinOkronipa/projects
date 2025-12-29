@@ -1,0 +1,9 @@
+numpy
+scikit-learn
+rasterio
+tensorflow
+matplotlibnumpy
+scikit-learn
+rasterio
+tensorflow
+matplotlib
