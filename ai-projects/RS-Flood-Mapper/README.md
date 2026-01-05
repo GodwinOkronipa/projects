@@ -52,3 +52,5 @@ This project is intended as an educational tool to demonstrate a full remote sen
    ```
 
    The script will preprocess the data, train the Random Forest model, print its evaluation metrics, and save the prediction map. The U-Net training is commented out by default but can be enabled for comparison.
+
+   Update: Corrected some errors in the code

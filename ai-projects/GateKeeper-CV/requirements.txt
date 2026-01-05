@@ -1,0 +1,8 @@
+opencv-python
+ultralytics
+easyocr
+pandas
+numpy
+torch
+torchvision
+torchaudio
